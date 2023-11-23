@@ -7,7 +7,7 @@ import Career from './router/Career'
 import CyberSecurity from './router/CyberSecurity'
 import DataScience from './router/DataScience'
 import FullStack from './router/FullStack'
-import WorkSpace from './component/workspace'
+import WorkSpace from './component/WorkSpace'
 
 
 function App() 
