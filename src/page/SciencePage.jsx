@@ -1,4 +1,4 @@
-
+import MainBar from "../component/MainBar";
 
 const SciencePage= ()=>{
 /* eslint-disable react/prop-types */
@@ -19,13 +19,11 @@ const SciencePage= ()=>{
         img: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Top-Product-Based-Companies-for-Data-Scientists.webp",
         
       }]
-      
       return (
         <div className="app">
-        
           {
           data.map((card,idx)=>(
-            <Image key={idx}
+            <MainBar key={idx}
             img={card.img} 
             name={card.name}
             />
@@ -34,22 +32,4 @@ const SciencePage= ()=>{
         </div>
       )
     }
-    
-    export default SciencePage;
-    function Image({ img, name}) {
-
-        return (
-          <div className="card">
-            <div className="img">
-              <img src={img} />
-            </div>
-            <div className='name'>
-              <h3>{name}</h3>
-            </div>
-          </div>
-        )
-      }
-
-
-    
-
+   export default SciencePage;

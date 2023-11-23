@@ -1,3 +1,5 @@
+import MainBar from "../component/MainBar";
+
 /* eslint-disable react/prop-types */
 const AllPage = ()=>
 {
@@ -22,7 +24,7 @@ const AllPage = ()=>
       <div className="app">
         {
         data.map((card,idx)=>(
-          <Image key={idx}
+          <MainBar key={idx}
           img={card.img} 
           name={card.name}
           />
@@ -32,21 +34,7 @@ const AllPage = ()=>
     )
   }
   export default AllPage;
-  function Image({ img, name}) {
-
-    return (
-      <div className="card card-body">
-        
-        <div className="img">
-          <img src={img} />
-        </div>
-        <div className="name card-title">
-         <h1>{name}</h1> 
-         
-        </div>
-      </div>
-    )
-  }
+  
     
  
   

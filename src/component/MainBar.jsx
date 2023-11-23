@@ -1,40 +1,21 @@
-/* eslint-disable no-unused-vars */
-// import AllPage from "../page/AllPage";
-// import CareerPage from "../page/CareerPage";
+/* eslint-disable react/prop-types */
 
 
-export default function MainBar() {
+
+export default function MainBar({img,name}) {
   
 return (
 
-<>
-</>
-       
+        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card-body">
+        <div className="img">
+        <figure><img src={img} /></figure>
+        </div>
+        <div className="card-actions card-title">
+         <h1>{name}</h1> 
+         
+        </div>
+      </div>
+       </div>
     )}
  
-// <div className="card-body">
-// <figure><img src={card.img} alt="image" /></figure>
-// <h4 className="card-title">{card.name}</h4>
-// </div>
-// </div>
-
-{/* <>
-          {myData?.map((docInfo, idx) => (
-            <div
-              key={idx}
-              className="card card-compact  w-96 bg-green-100 shadow-xl"
-            >
-              <div className="card-body">
-              <h2 className="card-title"> {docInfo.name}</h2>
-               <img src={docInfo.img}/>
-               
-            
-              </div>
-            </div>
-          ))}
-        </> */}
-
-  
-    
-     
-   

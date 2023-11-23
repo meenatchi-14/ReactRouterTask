@@ -7,7 +7,7 @@ import Career from './router/Career'
 import CyberSecurity from './router/CyberSecurity'
 import DataScience from './router/DataScience'
 import FullStack from './router/FullStack'
-import WorkSpace from './component/WorkSpace'
+
 
 
 
@@ -17,8 +17,7 @@ function App()
     <div className="app">
     
     <Routes> 
-      <Route exact path="/"element={<WorkSpace/>}/>
-      <Route path="/doc"element={<All/>}/>
+      <Route exact path="/"element={<All/>}/>
       <Route path="/doc/FullStack"element={<FullStack/>}/>
       <Route path="/doc/Science"element={<DataScience/>}/>
       <Route path="/doc/Security"element={<CyberSecurity/>}/>

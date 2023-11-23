@@ -1,5 +1,5 @@
 
-
+ import MainBar from "../component/MainBar";
 const CareerPage= ()=>{
 
  /* eslint-disable react/prop-types */
@@ -24,10 +24,9 @@ const CareerPage= ()=>{
       
       return (
         <div className="app">
-          
           {
           data.map((card,idx)=>(
-            <Image key={idx}
+            <MainBar key={idx}
             img={card.img} 
             name={card.name}
             />
@@ -38,16 +37,4 @@ const CareerPage= ()=>{
     }
     
     export default CareerPage;
-    function Image({ img, name}) {
-
-        return (
-          <div className="card">
-            <div className="img">
-              <img src={img} />
-            </div>
-            <div className='name'>
-              <h3>{name}</h3>
-            </div>
-          </div>
-        )
-      }
+    

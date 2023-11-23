@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
-
+import MainBar from "../component/MainBar";
 
 const SecurityPage= ()=>{
 
     const data = [{
-        name: "What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
-        img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
+        name: "8 Different Types of Cybersecurity and Threats Involved",
+        img: "https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp",
         
       },
       {
@@ -13,17 +13,18 @@ const SecurityPage= ()=>{
         img: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
        
       },
-       {
-        name: "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
-        img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
-        
-      }]
+      {
+        name: "Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?",
+        img: "https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif",
+       
+      },
+    ]
       
       return (
         <div className="app">
           {
           data.map((card,idx)=>(
-            <Image key={idx}
+            <MainBar key={idx}
             img={card.img} 
             name={card.name}
             />
@@ -34,18 +35,5 @@ const SecurityPage= ()=>{
     }
     
     export default SecurityPage;
-    function Image({ img, name}) {
-
-        return (
-          <div className='card'>
-            <div className="img">
-              <img src={img} />
-            </div>
-            <div className='name'>
-              <h3>{name}</h3>
-            </div>
-          </div>
-        )
-      }
-
+    
 
