@@ -1,5 +1,5 @@
 
-import WorkSpace from "../component/workspace";
+import WorkSpace from "../component/WorkSpace";
 import CareerPage from "../page/CareerPage";
 
 const Career=()=>{

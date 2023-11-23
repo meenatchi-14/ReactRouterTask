@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-import WorkSpace from "../component/workspace";
+import WorkSpace from "../component/WorkSpace";
 import AllPage from "../page/AllPage";
 
 const All=()=>
