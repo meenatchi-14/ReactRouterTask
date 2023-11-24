@@ -15,7 +15,7 @@ const SecurityPage= ()=>{
       },
       {
         name: "The Cybersecurity Surge: 5 Must-Have Cybersecurity Certifications!",
-        img: "https://www.guvi.in/blog/wp-content/uploads/2020/11/cyber-security-e1614342903477.png",
+        img: "https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg",
        
       },
     ]

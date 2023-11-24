@@ -6,7 +6,7 @@ export default function TopBar() {
     <div className="navbar bg-base-100">
     <div className="flex-1 navbar-start">
       <div role="tablist" className="tabs tabs-bordered">
-  <a  role="tab" className="tab tab-bordered hover tab-active text-black-900 font-semibold"  
+  <a  role="tab" className="tab tab-bordered hover text-black-900 font-semibold"  
    onClick={()=>navigate("/")}>ALL
     </a> 
   <a role="tab"className="tab tab-bordered hover text-black-900 font-semibold"
