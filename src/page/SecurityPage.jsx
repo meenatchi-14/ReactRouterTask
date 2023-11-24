@@ -14,8 +14,8 @@ const SecurityPage= ()=>{
        
       },
       {
-        name: "Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?",
-        img: "https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif",
+        name: "How Is Cyber Security Important To Our Lives?",
+        img: "https://www.guvi.in/blog/wp-content/uploads/2020/11/cyber-security-e1614342903477.png",
        
       },
     ]

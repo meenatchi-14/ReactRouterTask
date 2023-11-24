@@ -16,6 +16,6 @@
   
   a:hover{
     font-weight: bolder;
-    color: red;
-    text-decoration-line: underline;
+    color: green;
+    text-decoration: underline solid green 20%; 
   }
