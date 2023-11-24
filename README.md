@@ -1,7 +1,7 @@
 ### React + Vite
 
-# (All,Career,CyberSecurity,DataScience,FullStack)are wards used to active link .
-### Folder Structure
+(All,Career,CyberSecurity,DataScience,FullStack)are wards used to active link .
+## Folder Structure
 # To create an application with multiple page routes, let's first start with the file structure.
 
 Currently, two official plugins are available:
