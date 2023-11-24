@@ -11,9 +11,11 @@
 }
 .img{
   object-fit:cover;
+ 
   }
   
   a:hover{
-
+    font-weight: bolder;
+    color: red;
     text-decoration-line: underline;
   }

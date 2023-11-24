@@ -4,5 +4,5 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/meenatchi-14/ReactRouterTask.git) 
-- [@Netlifyy]() 
+- [@vitejs/plugin-react](https://github.com/meenatchi-14/ReactRouterTask.git/) 
+- [@Netlifyy](https://655ffe2b61cb9f618974bd27--tourmaline-zuccutto-e39ddd.netlify.app/) 
