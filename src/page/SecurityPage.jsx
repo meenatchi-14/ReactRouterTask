@@ -14,8 +14,8 @@ const SecurityPage= ()=>{
        
       },
       {
-        name: "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
-        img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
+        name: "The Cybersecurity Surge: 5 Must-Have Cybersecurity Certifications!",
+        img: "https://www.guvi.in/blog/wp-content/uploads/2020/11/cyber-security-e1614342903477.png",
        
       },
     ]
