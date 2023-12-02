@@ -6,5 +6,5 @@
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/meenatchi-14/ReactRouterTask.git/) 
-- [@Netlifyy](https://main--bespoke-chimera-fa806a.netlify.app/) 
+- [@vitejs/plugin-react/github](https://github.com/meenatchi-14/ReactRouterTask.git/) 
+- [@Netlify](https://main--bespoke-chimera-fa806a.netlify.app/) 
